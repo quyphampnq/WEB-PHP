@@ -1,0 +1,63 @@
+<?php
+/*
+require_once 'config.php';/*
+require_once PATH_TO_CORE.'db.php';
+require_once PATH_TO_CORE.'basemodel.php';
+require_once PATH_TO_MODEL.'productmodel.php';
+require_once PATH_TO_MODEL.'categorymodel.php';
+require_once PATH_TO_CORE.'controller.php';
+require_once PATH_TO_CORE.'usercontroller.php';
+require_once PATH_TO_CONTROLLER.'product.php';
+require_once 'mvc/lib/paging.php';*/
+//require_once "mvc/core/db.php";
+//require_once "mvc/core/basemodel.php";
+//require_once "mvc/core/adminmodel.php";
+//require_once "mvc/admin/model/adminproductmodel.php";
+//$basepath='product/home';
+/*
+$p=new Product;
+$p->productByBrand(15);
+
+//KET NOI CSDL
+$mysqli=new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME) or die;
+//viet cau lenh sql
+$sql=' select * from phamngocquy_product';
+//thuc thi cau lenh
+$result=$mysqli->query($sql);
+//
+$row=$result->fetch_row();
+echo "<pre>";
+print_r($row);
+echo '/pre';
+//
+
+$db=new Db;
+$sql="insert into tenbang...";
+$success=$db->query($sql);
+var_dump($success);
+*/
+/*
+$model=new BaseModel;
+$rows=$model->getAll ([ 'status' =>1, 'trash'=>0 ]);
+*/
+//$model=new BaseModel;
+//$p=new CategoryModel;
+//$rows=$model->getAllLimit(['trash' =>0,'status'=>1], 6, 2);
+//$rows=$model->get(['trash' =>0,'status'=>1]);
+/*$rows=$p->get(['catId=>1']);
+echo '<pre>';
+print_r( $rows);
+echo '</pre>';*/
+/*$totalRecords=29;
+$offset=0;
+$paging=new Paging($basepath , $totalRecords , LIMIT , $offset);
+$paging->createLinks();
+//<?php echo BASE_URL.'product/productDetail/'.$product['alias']?>
+*/
+/*$mp=new AdminProductModel;
+
+$rows=$mp->getAll([]);
+echo "<pre>";
+print_r($rows);
+echo "</pre>";
+?>*/

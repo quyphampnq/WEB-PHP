@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Bootstrap Site</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/f8b6056eaa.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="container">
+            <div class="row">
+                <div class="col-md-4"><img src="img/quy_logo.jpg" width="200" height="120" alt="brand"> </div>
+                <div class="col-md-4">
+                     <form class="d-flex">
+                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                       <button class="btn btn-outline-success" type="submit">Search</button>
+                     </form>
+                   </div>
+                <div class="col-md-4"><i class="fas fa-shopping-cart fs-5"></i><button class="btn btn-danger"> Login </button></div>
+                   <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="http://webqp:8080">QUY STORE</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="http://webqp:8080">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Forum</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Product
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">LapTop</a></li>
+                                  <li><a class="dropdown-item" href="#">PC Gamming</a></li>
+                                  <li><a class="dropdown-item" href="#">Màn Hình</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Trademark
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                  <li><a class="dropdown-item" href="#">Asus</a></li>
+                                  <li><a class="dropdown-item" href="#">Rog</a></li>
+                                  <li><a class="dropdown-item" href="#">Msi</a></li>
+                                  <li><a class="dropdown-item" href="#">Dell</a></li>
+                                </ul>
+                              </li>
+                            </ul>                        
+                          </div>
+                        </div>
+                      </nav>
+                   </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/quy_slide01.jpg" class="d-block w-100" width="915" height="420" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/quy_slide02.jpg" class="d-block w-100" width="915" height="420" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/quy_slide03.jpg" class="d-block w-100" width="915" height="420" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+        <div class="container mt-3">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-header">
+                    Sản Phẩm
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="" class="text-decoration-none">LapTop</a></li>
+                    <li class="list-group-item"><a href="" class="text-decoration-none">PC Gamming</a></li>
+                    <li class="list-group-item"><a href="" class="text-decoration-none">Màn Hình</a></li>
+                  </ul>
+                </div>
+                <div class="card mt-2">
+                  <div class="card-header">
+                    Thương Hiệu
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="" class="text-decoration-none">Asus</a></li>
+                    <li class="list-group-item"><a href="" class="text-decoration-none">Rog</a></li>
+                    <li class="list-group-item"><a href="" class="text-decoration-none">Msi</a></li>
+                    <li class="list-group-item"><a href="" class="text-decoration-none">Dell</a></li>
+                  </ul>
+                </div>
+              </div>
+                <div class="card md-9" style="max-width: 850px;">
+                  <?php include_once PATH_TO_VIEW.$viewname.'.php';?>
+             </div>
+            </div>
+          </div>
+        <footer class="container-fluid bg-warning">
+            <div class="row">
+                <div class="col-md-4 p-5">
+                    <b>Support customers</b><br>
+                    <a href="" class="text-decoration-none" >Mua hàng trả góp</a><br>
+                    <a href="" class="text-decoration-none">Chính sách bảo hành</a><br>
+                    <a href="" class="text-decoration-none">Chính sách đổi trả</a><br>
+                </div>
+                <div class="col-md-4 p-5">
+                    <b>Support switchboard</b>
+                    <p>Hỗ trợ kỹ thuật</p>
+                    <b style="color: red;">1900.1234</b>
+                    <p>Tư vấn miễn phí</p>
+                    <b style="color: red;">1900.5678</b>
+                </div>
+                <div class="col-md-2 p-5"><i class="fab fa-facebook-f text-white-50ss"> facebook</i>
+                <i class="fab fa-youtube"> youtube</i></div>
+            </div>
+        </footer>
+    </body>
+</html>
